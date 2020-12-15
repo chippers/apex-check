@@ -31,7 +31,7 @@ fn main() {
     if arg == "-h" || arg == "--help" {
         println!("Apex Check v{}", env!("CARGO_PKG_VERSION"));
         println!("{}", env!("CARGO_PKG_AUTHORS").replace(":", ", "));
-        println!("Tests an apex domain for all 4 combinations of http(s) and www.");
+        println!("{}", env!("CARGO_PKG_DESCRIPTION"));
         println!("Useful for sites on GitHub Pages where 1 of the 4 will fail by default.");
         println!("\nUSAGE:\n\tapex-check <APEX_DOMAIN>");
         println!("\nFLAGS:\n\t-h, --help\tPrints this message");

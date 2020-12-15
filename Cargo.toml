@@ -2,6 +2,8 @@
 name = "apex-check"
 version = "0.1.0"
 authors = ["Chip Reed <chip@chip.sh>"]
+description = "Tests an apex domain for all 4 combinations of http(s) and www."
+license = "Apache-2.0"
 edition = "2018"
 
 [dependencies]
