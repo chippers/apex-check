@@ -1,0 +1,16 @@
+[package]
+name = "apex-check"
+version = "0.1.0"
+authors = ["Chip Reed <chip@chip.sh>"]
+edition = "2018"
+
+[dependencies]
+atty = "0.2"
+termcolor = "1"
+ureq = "1"
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
+incremental = false
